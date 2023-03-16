@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zZ5QCeG2Sw4nP9Hp2UGwYMwG3icl56l7L7uUdZUsUvzTUqMolOKMmwG5rufogOua2+soRaXNk0TnABKVRUJ1Yw==",
+  "dgSpecHash": "Mow+/BICbI92QTmvlZbUdB1q+ZuX/j0vhwtRGdyFGZoR75LJsRLi9lxNaiVJPURIBMvfK/pB3fmTdUzMcZ2Q3A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\android\\Documents\\Dapper-Pattern\\DapperPattern\\DapperPattern.Infra\\DapperPattern.Infra.csproj",
+  "projectFilePath": "C:\\Users\\android\\Documents\\GitHub\\Dapper-Pattern\\DapperPattern\\DapperPattern.Infra\\DapperPattern.Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\android\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512"
   ],
