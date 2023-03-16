@@ -1,0 +1,12 @@
+C:\Users\android\Documents\Dapper-Pattern\DapperPattern\DapperPattern.Infra\bin\Debug\net7.0\DapperPattern.Infra.deps.json
+C:\Users\android\Documents\Dapper-Pattern\DapperPattern\DapperPattern.Infra\bin\Debug\net7.0\DapperPattern.Infra.dll
+C:\Users\android\Documents\Dapper-Pattern\DapperPattern\DapperPattern.Infra\bin\Debug\net7.0\DapperPattern.Infra.pdb
+C:\Users\android\Documents\Dapper-Pattern\DapperPattern\DapperPattern.Infra\obj\Debug\net7.0\DapperPattern.Infra.csproj.AssemblyReference.cache
+C:\Users\android\Documents\Dapper-Pattern\DapperPattern\DapperPattern.Infra\obj\Debug\net7.0\DapperPattern.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\android\Documents\Dapper-Pattern\DapperPattern\DapperPattern.Infra\obj\Debug\net7.0\DapperPattern.Infra.AssemblyInfoInputs.cache
+C:\Users\android\Documents\Dapper-Pattern\DapperPattern\DapperPattern.Infra\obj\Debug\net7.0\DapperPattern.Infra.AssemblyInfo.cs
+C:\Users\android\Documents\Dapper-Pattern\DapperPattern\DapperPattern.Infra\obj\Debug\net7.0\DapperPattern.Infra.csproj.CoreCompileInputs.cache
+C:\Users\android\Documents\Dapper-Pattern\DapperPattern\DapperPattern.Infra\obj\Debug\net7.0\DapperPattern.Infra.dll
+C:\Users\android\Documents\Dapper-Pattern\DapperPattern\DapperPattern.Infra\obj\Debug\net7.0\refint\DapperPattern.Infra.dll
+C:\Users\android\Documents\Dapper-Pattern\DapperPattern\DapperPattern.Infra\obj\Debug\net7.0\DapperPattern.Infra.pdb
+C:\Users\android\Documents\Dapper-Pattern\DapperPattern\DapperPattern.Infra\obj\Debug\net7.0\ref\DapperPattern.Infra.dll
