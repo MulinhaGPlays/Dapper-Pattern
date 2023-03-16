@@ -15,9 +15,10 @@ namespace DapperPattern.Infra.Repositories.RepositoryCommandLines.RepositoryBase
         {
             _scheme = scheme != null ? $"{scheme}." : String.Empty;
             _model = modelName;
-            _values = String.Join(',', _columns!);
             _columns = model.GetType().GetProperties().Select(x => x.Name);
-            _set = 
+            _values = String.Join(',', _columns!);
+            var values = _columns.Select(x => $"@{x}");
+            _set = String.Join('=', Interleave(_columns, values));
         }
 
         public string count => $"SELECT COUNT(*) FROM {_scheme}{_model}";
@@ -31,5 +32,14 @@ namespace DapperPattern.Infra.Repositories.RepositoryCommandLines.RepositoryBase
         public string update => $"UPDATE {_scheme}{_model} SET {_set}";
 
         public string delete => $"DELETE FROM {_scheme}{_model} WHERE {_columns.First()} = @{_columns.First()}";
+
+        static List<string> Interleave(IEnumerable<string> list1, IEnumerable<string> list2)
+        {
+            int maxLength = Math.Max(list1.Count(), list2.Count());
+
+            return Enumerable.Range(0, maxLength)
+                .SelectMany(i => list1.Skip(i).Take(1).Concat(list2.Skip(i).Take(1)))
+                .ToList();
+        }
     }
 }
