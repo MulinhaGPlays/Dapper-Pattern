@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Bzp5Zvi5jtjYdCIuv3T7EelONfmoG8qvGOiJiknJ3b/KbijtvOwhxFjqr/WQZ1hWeFgZMsOfgthuborHUkogvA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\android\\Desktop\\Dapper Pattern\\DapperPattern\\DappePattern.Console\\DappePattern.Console.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\android\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512"
+  ],
+  "logs": []
+}
