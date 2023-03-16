@@ -8,6 +8,7 @@ internal class Program
     {
         var testando = new TestandoModelCommandLines();
 
+        System.Console.ForegroundColor = ConsoleColor.Green;
         System.Console.WriteLine(testando.count);
         System.Console.WriteLine(testando.getAll);
         System.Console.WriteLine(testando.getById);
