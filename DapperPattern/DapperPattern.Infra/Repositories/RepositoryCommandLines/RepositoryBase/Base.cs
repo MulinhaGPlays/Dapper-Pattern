@@ -5,11 +5,11 @@ namespace DapperPattern.Infra.Repositories.RepositoryCommandLines.RepositoryBase
 {
     public abstract class Base : ICommandLines
     {
-        private readonly string? _scheme;
-        private readonly string _model;
-        private readonly string _values;
-        private readonly string _set;
-        private readonly IEnumerable<string> _columns;
+        public readonly string? _scheme;
+        public readonly string _model;
+        public readonly string _values;
+        public readonly string _set;
+        public readonly IEnumerable<string> _columns;
 
         public Base(string? scheme, string modelName, IModel model)
         {
@@ -31,7 +31,7 @@ namespace DapperPattern.Infra.Repositories.RepositoryCommandLines.RepositoryBase
         public string update => $"UPDATE {_scheme}{_model} SET {_set} WHERE {_columns.First()} = @{_columns.First()}";
         public string delete => $"DELETE FROM {_scheme}{_model} WHERE {_columns.First()} = @{_columns.First()}";
 
-        static IEnumerable<string> Interleave(IEnumerable<string> list1, IEnumerable<string> list2)
+        private static IEnumerable<string> Interleave(IEnumerable<string> list1, IEnumerable<string> list2)
         {
             int maxLength = Math.Max(list1.Count(), list2.Count());
             return Enumerable.Range(0, maxLength).SelectMany(i => list1.Skip(i).Take(1).Concat(list2.Skip(i).Take(1)));
