@@ -1,5 +1,5 @@
 ﻿namespace DapperPattern.Infra.Models.Schemes;
 
-public class Testando
+public class Administrador
 {
 }

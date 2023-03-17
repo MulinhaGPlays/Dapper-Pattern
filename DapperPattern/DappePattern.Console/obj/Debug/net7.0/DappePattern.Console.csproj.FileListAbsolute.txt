@@ -36,3 +36,9 @@ C:\Users\android\Documents\GitHub\Dapper-Pattern\DapperPattern\DappePattern.Cons
 C:\Users\android\Documents\GitHub\Dapper-Pattern\DapperPattern\DappePattern.Console\obj\Debug\net7.0\DappePattern.Console.pdb
 C:\Users\android\Documents\GitHub\Dapper-Pattern\DapperPattern\DappePattern.Console\obj\Debug\net7.0\DappePattern.Console.genruntimeconfig.cache
 C:\Users\android\Documents\GitHub\Dapper-Pattern\DapperPattern\DappePattern.Console\obj\Debug\net7.0\ref\DappePattern.Console.dll
+C:\Users\android\Documents\GitHub\Dapper-Pattern\DapperPattern\DappePattern.Console\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\Users\android\Documents\GitHub\Dapper-Pattern\DapperPattern\DappePattern.Console\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\Users\android\Documents\GitHub\Dapper-Pattern\DapperPattern\DappePattern.Console\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\Users\android\Documents\GitHub\Dapper-Pattern\DapperPattern\DappePattern.Console\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\Users\android\Documents\GitHub\Dapper-Pattern\DapperPattern\DappePattern.Console\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\android\Documents\GitHub\Dapper-Pattern\DapperPattern\DappePattern.Console\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

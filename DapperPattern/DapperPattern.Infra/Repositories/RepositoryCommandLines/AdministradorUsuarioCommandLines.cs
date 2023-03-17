@@ -4,9 +4,9 @@ using DapperPattern.Infra.Repositories.RepositoryCommandLines.RepositoryBase;
 
 namespace DapperPattern.Infra.Repositories.RepositoryCommandLines;
 
-public class TestadoModelCommandLines : Base
+public class AdministradorUsuarioCommandLines : Base
 {
-    public TestadoModelCommandLines() : base(nameof(Testado), nameof(Model), new Model()) //"Testado", "Model" || null, "Model"
+    public AdministradorUsuarioCommandLines() : base(nameof(Administrador), nameof(Usuario), new Usuario())
     {
 
     }

@@ -17,7 +17,7 @@ namespace DapperPattern.Infra.Repositories.RepositoryCommandLines.RepositoryBase
             _model = modelName;
             _columns = model.GetType().GetProperties().Select(x => x.Name);
             var columns = _columns!.Skip(1);
-            _values = String.Join(", ", columns);
+            _values = String.Join(", ", columns.Select(x => $"@{x}"));
             var interleaved = Interleave(columns, columns.Select(x => $"@{x}"));
             var formats = interleaved.Select((s, i) => i % 2 == 0 ? $"{s} = " : s).ToList();
             var concat = formats.Select((e, i) => i % 2 == 0 && i + 1 < interleaved.Count() ? e + formats[i + 1] : String.Empty);
@@ -26,10 +26,10 @@ namespace DapperPattern.Infra.Repositories.RepositoryCommandLines.RepositoryBase
 
         public string count => $"SELECT COUNT(*) FROM {_scheme}{_model}";
         public string getAll => $"SELECT * FROM {_scheme}{_model}";
-        public string getById => $"SELECT * FROM {_scheme}{_model} WHERE {_columns.First()} = @{_columns.First()}";
+        public string getById => $"SELECT * FROM {_scheme}{_model} WHERE {_columns.First()} = @Id";
         public string insertInto => $"INSERT INTO {_scheme}{_model} VALUES ({_values})";
-        public string update => $"UPDATE {_scheme}{_model} SET {_set} WHERE {_columns.First()} = @{_columns.First()}";
-        public string delete => $"DELETE FROM {_scheme}{_model} WHERE {_columns.First()} = @{_columns.First()}";
+        public string update => $"UPDATE {_scheme}{_model} SET {_set} WHERE {_columns.First()} = @Id";
+        public string delete => $"DELETE FROM {_scheme}{_model} WHERE {_columns.First()} = @Id";
 
         private static IEnumerable<string> Interleave(IEnumerable<string> list1, IEnumerable<string> list2)
         {

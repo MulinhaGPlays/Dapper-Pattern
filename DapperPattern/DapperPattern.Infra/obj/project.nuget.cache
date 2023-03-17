@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "jdfUI2ymysj5ve4CRHTADWN36kTyCwM6HlLzotfg9pUgcaCCKWlQM4R75pgx1+HshkLtOKwtNbT+u/tBrelQ4w==",
+  "dgSpecHash": "Mow+/BICbI92QTmvlZbUdB1q+ZuX/j0vhwtRGdyFGZoR75LJsRLi9lxNaiVJPURIBMvfK/pB3fmTdUzMcZ2Q3A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MulinhaGPlays\\Documents\\GitHub\\Dapper-Pattern\\DapperPattern\\DapperPattern.Infra\\DapperPattern.Infra.csproj",
+  "projectFilePath": "C:\\Users\\android\\Documents\\GitHub\\Dapper-Pattern\\DapperPattern\\DapperPattern.Infra\\DapperPattern.Infra.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\MulinhaGPlays\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512"
+    "C:\\Users\\android\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512"
   ],
   "logs": []
 }
